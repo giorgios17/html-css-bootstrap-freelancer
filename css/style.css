@@ -34,11 +34,10 @@ footer{
 
 /* header */
 
-.hamburger-menu {
-    width: 20px;
-    height: 2px;
-    background-color: white;
-    margin: 6px 0;
+.fa-bars{
+    border: 1px solid white;
+    padding: 3px 5px;
+    border-radius: 5px;
 }
 
 .logo{
@@ -46,13 +45,9 @@ footer{
       font-weight: 600;
 }
 
-nav ul li{
-        list-style-type: none;
-}
-    
-nav ul li a{
-        text-decoration: none;
-        color: white;
+.link-decoration-g a{
+    text-decoration: none;
+    color: white;
 }
 
   /* section start */

@@ -16,14 +16,19 @@
     <!-- HEADER -->
     <header class="header-bg">
         <div class="container">
-            <div class="row justify-content-between align-items-center h100">
+            <div class="row justify-content-between align-items-center py-4">
                 <div class="col-5">
                     <div class="logo">START BOOTSTRAP</div>
                 </div>
-                <div class="col-1 hamburger-display">
-                    <div class="hamburger-menu"></div>
-                    <div class="hamburger-menu"></div>
-                    <div class="hamburger-menu"></div>
+                <div class="col-1 d-block d-lg-none">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="col-5 d-none d-lg-block">
+                    <div class="row justify-content-end">
+                        <div class="col-auto link-decoration-g"><a href="#">PORTFOLIO</a></div>
+                        <div class="col-auto link-decoration-g"><a href="#">ABOUT</a></div>
+                        <div class="col-auto link-decoration-g"><a href="#">CONTACT</a></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -145,7 +150,7 @@
                     </div>
                     <div class="col-7">
                         <label for="Textarea">Message</label>
-                        <textarea class="form-control" placeholder="" id="floatingTextarea"></textarea>
+                        <textarea class="form-control" placeholder="" id="Textarea"></textarea>
                     </div>
                     <div class="col-7">
                         <button type="button" class="btn btn-success">Send</button>
