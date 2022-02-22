@@ -15,6 +15,11 @@ footer{
     background-color: #3a546d;
 }
 
+.line{
+    height: 3px;
+    width: 80px;
+}
+
 /* utility */
 
 .h100{
