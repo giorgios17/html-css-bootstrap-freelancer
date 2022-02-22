@@ -2,12 +2,17 @@
 
 header,
 .section-start,
-.section-about{
+.section-about, 
+footer{
     color: white;
 }
 
 .header-bg{
     background-color: #2c3e50;
+}
+
+footer{
+    background-color: #3a546d;
 }
 
 /* utility */
@@ -29,44 +34,72 @@ header,
     height: 2px;
     background-color: white;
     margin: 6px 0;
-  }
+}
 
-  .logo{
+.logo{
       font-size: 20px; 
       font-weight: 600;
-    }
+}
+
+nav ul li{
+        list-style-type: none;
+}
+    
+nav ul li a{
+        text-decoration: none;
+        color: white;
+}
 
   /* section start */
 
-  .section-start,
-  .section-about{
+.section-start,
+.section-about{
       background-color: #1abc9c;
-  }
+}
 
   /* section-portfolio */
 
-  .section-portfolio{
+.section-portfolio{
       margin: 40px 0;
-  }
+}
 
-  .section-portfolio img{
+.section-portfolio img{
       width: 100%;
-  }
+}
 
   /* section contact me */
 
-  .section-contact ul{
+.section-contact ul{
     padding-inline-start: 0px;
   }
 
-  .section-contact ul li{
+.section-contact ul li{
       list-style-type: none;
       border-bottom: 0.5px solid black;
       padding: 10px 0;
   }
-  .section-contact ul li a{
+.section-contact ul li a{
     text-decoration: none;
     color: black;
 }
 
+/* footer */
+.social i{
+    border: 1px solid white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    vertical-align: middle;
+   margin: 10px;
+}
+
+#color-credits{
+    color: #1abc9c;
+}
  
+.copyright{
+    background-color: #2c3e50;
+}
+
